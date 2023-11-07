@@ -108,4 +108,6 @@ for akey, v in ipairs(animal) do
 	if type(v.hp_max) ~= 'nil' then
 		def.hp_max = v.hp_max
 	end
+	
+	def.armor = 0 --защита
 end
